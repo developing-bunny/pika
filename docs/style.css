@@ -1,0 +1,58 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#bg {
+    padding: 0px;
+    margin: 0px;
+    background-size: cover;
+    background-image: url("background.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background.jpg');
+    height: 100%;
+}
+
+#compliment {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#sentence {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px 40px;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    text-align: center;
+    color: aliceblue;
+    font-family: "Montserrat";
+    font-size: 60px;
+}
+
+#keyword {
+    font-family: "Balsamiq Sans";
+    position: relative;
+    font-size: 75px;
+}
+
+#pic-wrapper {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    height: 70%;
+}
+
+#pic {
+    position: relative;
+    left: -50%;
+    width: 800px;
+    height: 100%;
+    background-image: url("1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
